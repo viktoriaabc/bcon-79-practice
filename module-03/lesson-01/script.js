@@ -1,15 +1,14 @@
 // Task-1
+const ar1 = [1, " ", true];
 const btn1 = document.querySelector(".b-1");
-const ar1 = ["random", true, 2, 15, -5];
-
-btn1.onclick = fn1;
-
-function fn1() {
 const out1 = document.querySelector(".out-1");
-out1.textContent = `[${ar1}]`;
-
+// document.querySelector(".b-1").onclick = function () {
+//   document.querySelector(".out-1").textContent = ar1;
+// };
+btn1.onclick = fn1;
+function fn1() {
+  out1.textContent = ar1;
 }
-
 // Task-2
 const btn2 = document.querySelector(".b-2");
 const ar2 = ["random", true, 2, 15, -5];
