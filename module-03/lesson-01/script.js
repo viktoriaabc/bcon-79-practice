@@ -127,8 +127,8 @@ const out9 = document.querySelector(".out-9");
 
 // btn8.onclick = fn8;
 
- function fn9() {
-const last
+//  function fn9() {
+// const last
 // }
 // Task-10
 
@@ -280,7 +280,7 @@ let evenCounter = 0;
 
 // Task-17
 
-const ar17 = [3, 0, 2, 6, 0, 1, 3, 1, 9, 0, 2, 0]];
+const ar17 = [3, 0, 2, 6, 0, 1, 3, 1, 9, 0, 2, 0];
 const btn17 = document.querySelector(".b-17");
 const out17 = document.querySelector(".out-17");
 
